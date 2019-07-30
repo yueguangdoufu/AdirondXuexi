@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">fileW</string>
+    <string name="title_activity_sqlite_test">SQLiteTestActivity</string>
+</resources>

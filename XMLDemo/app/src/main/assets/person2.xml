@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <person id = "7">
+        <name>Dom解析</name>
+        <age>19</age>
+    </person>
+    <person id = "12">
+        <name>XML2</name>
+        <age>34</age>
+    </person>
+</persons>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColorActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="R"
+        app:layout_constraintBottom_toBottomOf="@+id/tvRed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvRed"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="G"
+        app:layout_constraintStart_toStartOf="@+id/tvR"
+        app:layout_constraintTop_toBottomOf="@+id/tvR"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="59dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/btnChange"
+        app:layout_constraintTop_toBottomOf="@+id/btnChange"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="@+id/tvRed"
+        app:layout_constraintTop_toBottomOf="@+id/tvRed"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="@+id/tvGreen"
+        app:layout_constraintTop_toBottomOf="@+id/tvGreen"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvPanel"
+        android:layout_width="0dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="34dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginStart="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="B"
+        app:layout_constraintStart_toStartOf="@+id/tvG"
+        app:layout_constraintTop_toBottomOf="@+id/tvG" />
+</android.support.constraint.ConstraintLayout>

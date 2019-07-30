@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">prj2</string>
+    <string name="text1">frame1</string>
+    <string name="text2">frame2</string>
+    <string name="btn">change</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_color">ColorActivity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>
